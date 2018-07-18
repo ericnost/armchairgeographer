@@ -13,7 +13,6 @@ img {
     line-height: 25px;
     vertical-align: middle;
     text-align: center;
-    font-family: Arial;
     font-weight: bold;
     font-size: 100%;
     z-index:1;
@@ -24,6 +23,9 @@ img {
 }
 a{
     color: white;
+}
+a:hover{
+   color: white; 
 }
 div{
     padding: 10px;
@@ -42,10 +44,8 @@ div{
 }
 .images {
 }
-.slide-title {
-    background-color: white;
+.slide-title {  
     text-align: center;
-    font-family: Tahoma;
     font-weight: bold;
     font-size: 200%;
     z-index: 1;
@@ -55,7 +55,65 @@ div{
 }
 
 .text {
-    font-family: Tahoma;
     font-size: 150%;
     z-index:1;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #636363;
+
+}
+.navbar-default .navbar-brand {
+  font-family: 'PT Serif', serif;
+  font-size: 30px;
+}
+
+.navbar-default .navbar-brand:hover {
+  text-decoration: underline;
+}
+
+.navbar-default .navbar-nav > li > a  {
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+}
+
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+
+}
+
+li{
+  font-size: 10px;
+}
+
+.well {
+  min-height: 20px;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.center {
+  padding: 30px;
+  background: #fcfcfc;;
+}
+
+.row{
+  padding:10px;
+}
+
+body {
+    background-color: #fcfcfc;
+    font-family: 'PT Serif', serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  max-width: 100%;
+  overflow-x: hidden;
 }
