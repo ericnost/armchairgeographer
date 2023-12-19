@@ -11,9 +11,9 @@
             var i = Math.round((Math.random() * 10));
             var j = Math.round((Math.random() * 17));
             var url = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=cb3e1b37d4499316689286975a99d763&bbox="+bbox+"&format=json&nojsoncallback=1";
-            var moose = "http://i167.photobucket.com/albums/u154/imhch/cid.jpg";
+            var moose = "https://i167.photobucket.com/albums/u154/imhch/cid.jpg";
             var width =$(".col-md-4").width()
-            var map = "https://maps.googleapis.com/maps/api/staticmap?center="+marklat+","+marklon+"&zoom=5&size="+width+"x"+200+"&markers=color:blue%7C&key=AIzaSyDiXt58emjY-8prg72wmpWuJYKs3O76KL8"
+            var map = "https://maps.googleapis.com/maps/api/staticmap?center="+marklat+","+marklon+"&zoom=5&size="+width+"x"+200+"&markers=color:blue%7C&key=AIzaSyBHhxIX9n4GANIf5Q-I6_nhrpzx6E0l_BM"
             //console.log(map)
             var pic;
             var item;
